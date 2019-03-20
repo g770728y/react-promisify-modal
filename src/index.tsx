@@ -109,7 +109,6 @@ export const ModalProvider: React.SFC = ({ children }) => {
     const timeoutHandler = setTimeout(clearExpiredState, 5000);
 
     function clearExpiredState() {
-      console.log('clear: ');
       const validModalStates = modalStatesRef.current.filter(s => {
         return (
           !s.expiredAt || new Date().getTime() - s.expiredAt.getTime() < 1000
