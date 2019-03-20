@@ -1,8 +1,4 @@
-# react-promisify-modal
-
-> 
-
-[![NPM](https://img.shields.io/npm/v/react-promisify-modal.svg)](https://www.npmjs.com/package/react-promisify-modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+## 简介
 
 ## Install
 
@@ -13,15 +9,13 @@ npm install --save react-promisify-modal
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from 'react';
 
-import MyComponent from 'react-promisify-modal'
+import MyComponent from 'react-promisify-modal';
 
 class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <MyComponent />;
   }
 }
 ```
